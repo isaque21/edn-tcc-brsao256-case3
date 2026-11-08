@@ -1,0 +1,9 @@
+# Configuração AWS local (perfil e região de quem executa)
+.aws-profile
+.aws-region
+
+# Arquivos temporários e de sistema
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

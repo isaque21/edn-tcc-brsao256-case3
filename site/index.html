@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escola Tech | Matrículas abertas</title>
+  <meta name="description" content="Escola Tech: cursos online de tecnologia com professores do mercado. Matrículas abertas para a Turma 2027.1.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Escola Tech, página inicial">
+        <img src="assets/img/favicon.svg" alt="" width="32" height="32">
+        <span>Escola<strong>Tech</strong></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="menu" class="nav" aria-label="Menu principal">
+        <a href="#cursos">Cursos</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#matricula" class="btn btn-primary btn-sm">Matricule-se</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <span class="pill">Matrículas abertas · Turma 2027.1</span>
+          <h1>Aprenda tecnologia com quem faz tecnologia.</h1>
+          <p class="lead">
+            Cursos 100% online, aulas ao vivo e gravadas, projetos reais e mentoria
+            de profissionais do mercado. Comece no seu ritmo e saia com portfólio.
+          </p>
+          <div class="hero-actions">
+            <a href="#matricula" class="btn btn-primary">Quero me matricular</a>
+            <a href="#cursos" class="btn btn-ghost">Ver cursos</a>
+          </div>
+          <ul class="stats" aria-label="Números da Escola Tech">
+            <li><strong>+12 mil</strong><span>alunos formados</span></li>
+            <li><strong>40+</strong><span>professores do mercado</span></li>
+            <li><strong>4,8/5</strong><span>avaliação média</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-card" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-dots"><i></i><i></i><i></i></div>
+<pre><code><span class="c">// sua jornada começa aqui</span>
+<span class="k">const</span> aluno = {
+  nome: <span class="s">"você"</span>,
+  objetivo: <span class="s">"primeiro emprego em tech"</span>,
+  turma: <span class="s">"2027.1"</span>
+};
+
+<span class="k">await</span> escolaTech.<span class="f">matricular</span>(aluno);
+<span class="c">// ✔ matrícula confirmada</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURSOS -->
+    <section id="cursos" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Escolha seu curso</h2>
+          <p>Trilhas completas, do básico ao avançado, com certificado reconhecido pelo mercado.</p>
+        </header>
+
+        <div class="grid courses">
+          <article class="card course" data-course="Desenvolvimento Web Full Stack">
+            <div class="course-icon">💻</div>
+            <h3>Desenvolvimento Web Full Stack</h3>
+            <p>HTML, CSS, JavaScript, React, Node.js e bancos de dados. Do zero ao deploy.</p>
+            <ul class="meta"><li>9 meses</li><li>Iniciante</li></ul>
+            <p class="price">a partir de <strong>R$ 149</strong>/mês</p>
+            <button class="btn btn-outline js-choose" type="button">Quero este curso</button>
+          </article>
+
+          <article class="card course" data-course="Cloud Computing com AWS">
+            <div class="course-icon">☁️</div>
+            <h3>Cloud Computing com AWS</h3>
+            <p>Arquitetura, redes, segurança e alta disponibilidade. Preparatório para certificações.</p>
+            <ul class="meta"><li>6 meses</li><li>Intermediário</li></ul>
+            <p class="price">a partir de <strong>R$ 169</strong>/mês</p>
+            <button class="btn btn-outline js-choose" type="button">Quero este curso</button>
+          </article>
+
+          <article class="card course" data-course="Ciência de Dados e IA">
+            <div class="course-icon">📊</div>
+            <h3>Ciência de Dados e IA</h3>
+            <p>Python, estatística, machine learning e IA generativa aplicada a negócios.</p>
+            <ul class="meta"><li>8 meses</li><li>Intermediário</li></ul>
+            <p class="price">a partir de <strong>R$ 169</strong>/mês</p>
+            <button class="btn btn-outline js-choose" type="button">Quero este curso</button>
+          </article>
+
+          <article class="card course" data-course="Cibersegurança">
+            <div class="course-icon">🛡️</div>
+            <h3>Cibersegurança</h3>
+            <p>Redes, hardening, resposta a incidentes e segurança em nuvem com laboratórios práticos.</p>
+            <ul class="meta"><li>6 meses</li><li>Intermediário</li></ul>
+            <p class="price">a partir de <strong>R$ 159</strong>/mês</p>
+            <button class="btn btn-outline js-choose" type="button">Quero este curso</button>
+          </article>
+
+          <article class="card course" data-course="UX/UI Design">
+            <div class="course-icon">🎨</div>
+            <h3>UX/UI Design</h3>
+            <p>Pesquisa com usuários, prototipação no Figma, design systems e acessibilidade.</p>
+            <ul class="meta"><li>5 meses</li><li>Iniciante</li></ul>
+            <p class="price">a partir de <strong>R$ 129</strong>/mês</p>
+            <button class="btn btn-outline js-choose" type="button">Quero este curso</button>
+          </article>
+
+          <article class="card course" data-course="DevOps e SRE">
+            <div class="course-icon">⚙️</div>
+            <h3>DevOps e SRE</h3>
+            <p>Linux, containers, CI/CD, infraestrutura como código e observabilidade.</p>
+            <ul class="meta"><li>6 meses</li><li>Avançado</li></ul>
+            <p class="price">a partir de <strong>R$ 179</strong>/mês</p>
+            <button class="btn btn-outline js-choose" type="button">Quero este curso</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section id="diferenciais" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>Por que a Escola Tech?</h2>
+        </header>
+        <div class="grid features">
+          <div class="feature">
+            <h3>Aulas ao vivo e gravadas</h3>
+            <p>Participe ao vivo ou assista depois. Todo o conteúdo fica disponível por 2 anos.</p>
+          </div>
+          <div class="feature">
+            <h3>Projetos reais</h3>
+            <p>Você termina cada módulo com um projeto para o portfólio, revisado por mentores.</p>
+          </div>
+          <div class="feature">
+            <h3>Mentoria de carreira</h3>
+            <p>Revisão de currículo, LinkedIn e simulações de entrevista com recrutadores parceiros.</p>
+          </div>
+          <div class="feature">
+            <h3>Comunidade ativa</h3>
+            <p>Grupos de estudo, hackathons mensais e networking com alunos e ex-alunos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATRÍCULA -->
+    <section id="matricula" class="section">
+      <div class="container enroll">
+        <div class="enroll-info">
+          <h2>Faça sua matrícula</h2>
+          <p>Preencha o formulário e garanta sua vaga na Turma 2027.1. Nossa equipe envia os próximos passos por e-mail.</p>
+          <ul class="checklist">
+            <li>7 dias de garantia incondicional</li>
+            <li>Primeira mensalidade só no início das aulas</li>
+            <li>Certificado digital ao concluir</li>
+          </ul>
+        </div>
+
+        <div class="card enroll-card">
+          <form id="enroll-form" novalidate>
+            <div class="field">
+              <label for="nome">Nome completo</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" required minlength="3" aria-describedby="nome-erro">
+              <p class="error" id="nome-erro" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-erro">
+              <p class="error" id="email-erro" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="telefone">WhatsApp <span class="optional">(opcional)</span></label>
+              <input id="telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(11) 91234-5678" aria-describedby="telefone-erro">
+              <p class="error" id="telefone-erro" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="curso">Curso</label>
+              <select id="curso" name="curso" required aria-describedby="curso-erro">
+                <option value="">Selecione um curso</option>
+              </select>
+              <p class="error" id="curso-erro" aria-live="polite"></p>
+            </div>
+
+            <fieldset class="field">
+              <legend>Turno preferido</legend>
+              <div class="radios">
+                <label><input type="radio" name="turno" value="Manhã"> Manhã</label>
+                <label><input type="radio" name="turno" value="Noite" checked> Noite</label>
+                <label><input type="radio" name="turno" value="Flexível (gravado)"> Flexível</label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label class="check">
+                <input id="aceite" name="aceite" type="checkbox" required aria-describedby="aceite-erro">
+                Li e aceito os termos de matrícula e a política de privacidade.
+              </label>
+              <p class="error" id="aceite-erro" aria-live="polite"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="enroll-submit">Confirmar matrícula</button>
+          </form>
+
+          <div id="enroll-success" class="success" hidden tabindex="-1">
+            <div class="success-icon" aria-hidden="true">✔</div>
+            <h3>Matrícula recebida!</h3>
+            <p id="success-text"></p>
+            <p class="protocol">Protocolo: <strong id="protocol"></strong></p>
+            <button type="button" class="btn btn-outline" id="enroll-reset">Fazer outra matrícula</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section-alt">
+      <div class="container narrow">
+        <header class="section-head">
+          <h2>Dúvidas frequentes</h2>
+        </header>
+        <details>
+          <summary>Preciso ter experiência prévia?</summary>
+          <p>Não para os cursos de nível iniciante. Os cursos intermediários e avançados indicam os pré-requisitos na página de cada trilha.</p>
+        </details>
+        <details>
+          <summary>Quando começam as aulas?</summary>
+          <p>A Turma 2027.1 começa na primeira semana de fevereiro de 2027. Você recebe o calendário completo por e-mail após a matrícula.</p>
+        </details>
+        <details>
+          <summary>Posso cancelar?</summary>
+          <p>Sim. Nos primeiros 7 dias após o início das aulas, o cancelamento é gratuito e com reembolso integral.</p>
+        </details>
+        <details>
+          <summary>O certificado é reconhecido?</summary>
+          <p>Os certificados são emitidos digitalmente, com código de verificação, e listam a carga horária e as competências trabalhadas.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Escola Tech. Todos os direitos reservados.</p>
+
+      <!-- Mostra qual instância EC2 respondeu. Útil para ver o ALB distribuindo o tráfego. -->
+      <div class="server-info" id="server-info" aria-live="polite">
+        <span class="dot" id="server-dot"></span>
+        <span>Servido por <strong id="srv-instance">…</strong></span>
+        <span class="sep">·</span>
+        <span>AZ <strong id="srv-az">…</strong></span>
+        <span class="sep">·</span>
+        <span>IP <strong id="srv-ip">…</strong></span>
+        <button type="button" class="link-btn" id="srv-refresh">atualizar</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
